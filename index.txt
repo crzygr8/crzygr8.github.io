@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#bga {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bga img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+body {
+        padding: 25px;
+        background-color: #EFEFEF;
+    }
+    #bg img {
+        width: 100%;
+        height: auto;
+    }
+    #bg {
+        width: 50%;
+        margin: 0 auto;
+    }
+</style>
+</head>
+<body>
+<div id="bg">
+  <img src="homepage.jpg" alt="">
+</div> 
+</body>
+</html>
